@@ -1,0 +1,50 @@
+:root {
+  --black-shade: #000;
+  --hover-color: #385170;
+  --title-color: #2d2e32;
+}
+
+nav {
+  font-size: 1rem;
+  width: 100%;
+  height: auto;
+  padding: 25px 40px 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+  z-index: 200;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  nav {
+    padding: 25px 30px 25px 30px;
+  }
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav ul a {
+  color: var(--black-shade);
+  text-decoration: none;
+  transition: all 0.23s;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  nav ul a {
+    display: none;
+  }
+}
+
+nav ul a:hover {
+  color: var(--hover-color);
+}
