@@ -60,38 +60,40 @@ export default function Home() {
             </div>
             <div className="hero-skills">
               <p>Tech Stack |</p>
-              <ul>
-                <li>
-                  <img
-                    src="https://skillicons.dev/icons?i=java,golang,php,python"
-                    alt="skill-icon"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://skillicons.dev/icons?i=javascript,css,html,nodejs"
-                    alt="skill-icon"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://skillicons.dev/icons?i=mysql,github,githubactions,docker"
-                    alt="skill-icon"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://skillicons.dev/icons?i=linux,windows"
-                    alt="skill-icon"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://skillicons.dev/icons?i=docker,"
-                    alt="skill-icon"
-                  />
-                </li>
-              </ul>
+              <div className="logo">
+                <ul>
+                  <li>
+                    <img
+                      src="https://skillicons.dev/icons?i=java,golang,php,python"
+                      alt="skill-icon"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://skillicons.dev/icons?i=javascript,css,html,nodejs"
+                      alt="skill-icon"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://skillicons.dev/icons?i=mysql,github,githubactions,docker"
+                      alt="skill-icon"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://skillicons.dev/icons?i=linux,windows"
+                      alt="skill-icon"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="https://skillicons.dev/icons?i=docker,"
+                      alt="skill-icon"
+                    />
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

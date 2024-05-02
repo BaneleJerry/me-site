@@ -9,7 +9,7 @@
 .container {
   margin: 0 auto;
   max-width: 107rem;
-  padding: o 4rem;
+  padding: 4rem;
 }
 
 .content {
@@ -55,9 +55,8 @@
 }
 
 .hero-text span a {
-  transition: all .2s;
+  transition: all 0.2s;
 }
-
 
 .hero-img {
   animation: morph 8s ease-in-out infinite;
@@ -97,6 +96,12 @@
   left: 0;
   position: relative;
 }
+.hero-skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  list-style: none;
+}
 
 .hero-skills li {
   display: flex;
@@ -104,3 +109,9 @@
   gap: 3rem;
   list-style: none;
 }
+
+/* .hero-skills ul li img {
+  width: 11rem;
+  height: 5rem;
+  transition: all ease-in-out 0.3s;
+} */
